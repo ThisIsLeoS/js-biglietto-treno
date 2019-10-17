@@ -8,18 +8,18 @@ var kms, age, price, str;
 
 // the user is asked the kms' number
 kms = prompt("Enter the kms' number");
-// the user is asked its age
+// the user is asked his or her age
 age = prompt("Enter your age");
 // the ticket's base price is calculated
 price = kms * 0.21;
 // the discount is applyed, if possible
 if (age <= 18)
 {
-  price = (price - (price / 100 * 20));
+  price = price / 100 * 80;
 }
 else if (age > 65)
 {
-  price = (price - (price / 100 * 40))
+  price = price / 100 * 60;
 }
 // the price is rounded at two decimals and printed with the currency symbol
 document.writeln("The ticket's price is " + (Math.round(price * 100) / 100) + "€");
