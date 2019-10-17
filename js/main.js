@@ -8,7 +8,7 @@ var kms, age, price, str;
 
 // the user is asked the kms' number
 kms = prompt("Enter the kms' number");
-// the user is asked his age
+// the user is asked its age
 age = prompt("Enter your age");
 // the ticket's base price is calculated
 price = kms * 0.21;
