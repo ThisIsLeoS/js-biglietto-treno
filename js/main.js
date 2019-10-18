@@ -13,7 +13,7 @@ age = prompt("Enter your age");
 // the ticket's base price is calculated
 price = kms * 0.21;
 // the discount is applyed, if possible
-if (age <= 18)
+if (age < 18)
 {
   price = price / 100 * 80;
 }
