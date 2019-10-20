@@ -11,7 +11,7 @@ body {
     /* to make a reference for the percentage heights of thix box's children */
     height: 100%;
     
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     letter-spacing: .04rem;
 }
 
